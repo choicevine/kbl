@@ -1,0 +1,9 @@
+created package.json 
+	import express, gravatar, express-validator,jsonwebtoken, mongoose, request, bcrypt, config
+
+created server.js
+	imported exxpress, defined app == express(), created the PORT, const PORT = process.env.PORT || 5000
+	made the app to listen on the PORT  app.listen(PORT, () => console.log(`app listening`)
+	tested the port on app.get('/', (req, res) => res.send('can work on ppostman')
+
+
